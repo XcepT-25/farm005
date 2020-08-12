@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const myid = ['ID'];
-const prefix = ['$'];
+const myid = ['280774651955642368'];
+const prefix = ['+'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -24,35 +24,35 @@ client6.login(process.env.TOKEN6);
 
 
 client.on('message', message => {
-  if (message.content === 'd1') {
+  if (message.content === 'd7') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c1'){
+  if(message.content === 'c7'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r1'){
+  if(message.content === 'r7'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p1') {
+  if (message.content === 'p7') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s1")) {
+  if(message.content.startsWith("s7")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
  
 client2.on('message', message => {
-  if (message.content === 'd2') {
+  if (message.content === 'd8') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c2'){
+  if(message.content === 'c8'){
 message.channel.send('#credits')
   }
-   if(message.content === 'r2'){
+   if(message.content === 'r8'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p2') {
+  if (message.content === 'p8') {
 message.channel.send('#profile')
   }
   if(message.content.startsWith("s2")) {
@@ -62,16 +62,16 @@ message.channel.send('#profile')
 });
  
 client3.on('message', message => {
-  if (message.content === 'd3') {
+  if (message.content === 'd9') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c3'){
+  if(message.content === 'c9'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r3'){
+  if(message.content === 'r9'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p3') {
+  if (message.content === 'p9') {
 message.channel.send('#profile')
   }
   if(message.content.startsWith("s3")) {
@@ -81,16 +81,16 @@ message.channel.send('#profile')
 });
  
 client4.on('message', message => {
-  if (message.content === 'd4') {
+  if (message.content === 'd10') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c4'){
+  if(message.content === 'c10'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r4'){
+  if(message.content === 'r10'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p4') {
+  if (message.content === 'p10') {
 message.channel.send('#profile')
   }
   if(message.content.startsWith("s4")) {
@@ -100,16 +100,16 @@ message.channel.send('#profile')
 });
  
 client5.on('message', message => {
-  if (message.content === 'd5') {
+  if (message.content === 'd11') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c5'){
+  if(message.content === 'c11'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r5'){
+  if(message.content === 'r11'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p5') {
+  if (message.content === 'p11') {
 message.channel.send('#profile')
   }
   if(message.content.startsWith("s5")) {
@@ -119,16 +119,16 @@ message.channel.send('#profile')
 });
 
 client6.on('message', message => {
-  if (message.content === 'd6') {
+  if (message.content === 'd12') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c6'){
+  if(message.content === 'c12'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r6'){
+  if(message.content === 'r12'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p6') {
+  if (message.content === 'p12') {
 message.channel.send('#profile')
   }
   if(message.content.startsWith("s6")) {
